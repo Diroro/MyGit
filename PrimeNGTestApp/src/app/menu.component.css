@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: border-box;
+    border: 0px;
+    font-family:  'PT Sans',Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+        position: relative;
+        display: inline-block;
+}
+  
+.menuDefault{
+        position: absolute;
+}
+.menuClosed{
+        visibility: hidden;
+        opacity: 0;
+}
+.menuOpened{
+        visibility: visible;
+        opacity: 1;
+}
+.menu li{
+        display: block;
+        margin-top: 2px;
+}
+.menu button{
+    background-color: #0166AA;
+}
+.menu button:hover{
+    background-color:#3186DD;
+}
+
+.menu li {
+    background-color: #5599EE;
+    color:white;
+}
+.menu li, .menu button, .menu a{    
+    color: whitesmoke;
+    padding: 10px 0;
+    width: 150px;
+    text-align: center;
+    font-size:16px;
+}
+
+.menu li, .menu button {
+    border: 1px solid RGBA(0,0,0,0.3);
+}

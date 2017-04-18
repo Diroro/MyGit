@@ -1,0 +1,14 @@
+<div class='tabs_container'>
+    <div class='tab' *ngFor="let tab of tabs; let tabNum = index" (click)="selectTab(tabNum)">
+        <div [ngClass]='tab.class' class='tab_header'>
+            {{tab.header}}
+        </div>
+    </div>
+    <export-tab [currentTab]='tabs[selectedTab]'></export-tab>
+   
+    <div class='tab_content' *ngFor="let tab of tabs; let tabNum = index">
+        <div class='content' *ngIf='selectedTab === tabNum'>
+            <data-table [currentTab]='tab'></data-table>
+        </div>
+    </div>
+</div>
