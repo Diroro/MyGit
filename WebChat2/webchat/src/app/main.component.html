@@ -1,0 +1,17 @@
+
+    <incoming>
+    </incoming>
+
+    <div class="coming">
+        <div class="coming_message">
+            <textarea [(ngModel)]="message.text.text" class="message"></textarea>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <button (click)="onSubmit();" id="button_send">Send </button>
+        </div>
+        <div>
+            <button (click)="login();" id="button_add">Login</button>
+        </div>
+    </div>

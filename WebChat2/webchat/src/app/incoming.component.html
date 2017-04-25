@@ -1,0 +1,16 @@
+<div class="incoming">
+    <div *ngFor="let message of messages" class="incoming_message">
+        <div class="name_time">
+            <div class="incoming_message__name">
+                <p>{{message.text.authorName}}</p>
+            </div>
+            <div class="incoming_message__time">
+                <p>{{message.text.time}}</p>
+            </div>
+        </div>
+        <div class="incoming_message__text">
+            {{message.text.text}}
+        </div>
+    </div>
+
+</div>

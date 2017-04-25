@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family:  'PT Sans',Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+.incoming {
+    height: 270px;
+    margin: 1px;
+/*    overflow-x:hidden;*/
+     overflow-y:auto;
+    border: 1px solid lightslategray;
+}
+.incoming_message{
+    margin: 0 0 1px 0;
+    background: white;
+    font-size:14px;
+    margin: 1px;
+}
+.name_time{
+    /* vertical-align:top; */
+    padding: 10px 10px 0 10px;
+    justify-content: space-between;
+    display: flex;
+    color: darkslategray;
+}
+.incoming_message__name, .incoming_message__name-my{
+  /*  font-size:inherit; */
+    font-weight: bold;
+    color: rgba(10,10,10,0.7);
+}
+
+.incoming_message__time, .incoming_message__time-my{
+  /*  font-size:inherit; */
+    color: rgba(10,10,10,0.7);
+}       
+.incoming_message__text, .incoming_message__text-my{
+    padding: 10px 10px;
+/*    vertical-align: top; */
+    font-size:inherit;
+}

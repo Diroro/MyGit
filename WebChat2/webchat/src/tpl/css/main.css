@@ -1,0 +1,153 @@
+body{
+background: url(../img/back.png) center top no-repeat;
+background-size: 100%;
+background-attachment: fixed; }
+.great_window {
+box-sizing: border-box;
+margin: 100px 20px;
+position: relative;
+width: 350px;
+height: 450px;
+background-color: black;
+border: 4px groove black;
+border-radius: 5px;
+display: block;}
+.name_room {
+position: relative;
+vertical-align:top;
+background-color: black;
+color: white;
+text-align:center;
+font-size: 20px;}
+.incoming {
+height: 270px;
+width: 335px;
+border: 4px groove black;
+overflow-x:hidden;
+ overflow-y:auto;
+ }
+.incoming_message{
+padding: 8px 0;
+ box-shadow: 0 2px 4px -1px rgba(0,0,0,.5), inset 0 1px 4px -1px rgba(0,0,0,.5);
+display: table;
+	border: 1px groove black;
+	margin: 1px 0;
+	background: rgb(248,248,244); 
+background: -moz-linear-gradient(top, rgba(248,248,244,1) 12%, rgba(204,202,178,1) 100%, rgba(209,207,185,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(248,248,244,1) 12%,rgba(204,202,178,1) 100%,rgba(209,207,185,1) 100%);
+background: linear-gradient(to bottom, rgba(248,248,244,1) 12%,rgba(204,202,178,1) 100%,rgba(209,207,185,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f4', endColorstr='#d1cfb9',GradientType=0 );}
+.incoming_message_my{
+padding: 8px 0;
+ box-shadow: 0 2px 4px -1px rgba(0,0,0,.5), inset 0 1px 4px -1px rgba(0,0,0,.5);
+    display: table-cell;
+	border:1px groove black;
+	display: table-cell;
+	background: rgb(231,231,231); 
+background: -moz-linear-gradient(top, rgba(231,231,231,1) 12%, rgba(186,186,186,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(231,231,231,1) 12%,rgba(186,186,186,1) 100%); 
+background: linear-gradient(to bottom, rgba(231,231,231,1) 12%,rgba(186,186,186,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7e7e7', endColorstr='#bababa',GradientType=0 );}
+.incoming_message__name
+{display: table-cell;
+vertical-align: top;
+width: 70px;
+overflow: hidden;
+color:#44AAE9;
+font-size: 18px;
+ font-weight: 600;
+padding:0 0 0 5px;}
+.incoming_message__name-my
+{display: table-cell;
+vertical-align: top;
+width: 70px;
+overflow: hidden;
+padding:0 5 0 0px;
+font-size: 18px;
+ font-weight: 600;
+color:#C55E49;}
+.incoming_message__text, .incoming_message__text-my{
+display: table-cell;
+margin: 0 5px;
+vertical-align: top;
+width: auto;}
+.incoming_message__time{
+padding:0 3px 0;
+width: 37px;
+vertical-align:top;
+display: table-cell;
+ font-weight: 600;
+}
+.incoming_message__time-my{ 
+ font-weight: 600; 
+display: table-cell;                          
+width: 37px;
+vertical-align:top;
+padding:0 8px 0 4px;}
+.coming {
+height: 100px;
+width: 335px;
+border: 4px groove black;
+display: table;}
+.footer {
+display: table;
+height: 30px;
+width: 335px;
+display: table;}
+.message{        
+	display: block;
+    overflow: auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px groove black;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.5), inset 0 1px 4px -1px rgba(0,0,0,.5);
+   background: background: rgb(231,231,231); 
+background: -moz-linear-gradient(top, rgba(231,231,231,1) 12%, rgba(91,91,91,1) 100%, rgba(107,107,107,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(231,231,231,1) 12%,rgba(91,91,91,1) 100%,rgba(107,107,107,1) 100%); 
+background: linear-gradient(to bottom, rgba(231,231,231,1) 12%,rgba(91,91,91,1) 100%,rgba(107,107,107,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7e7e7', endColorstr='#6b6b6b',GradientType=0 );
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    resize: none;}
+	#button_send{background: #000;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.5);
+    font-family: inherit;
+    font-weight: bold;
+    font-size: inherit;
+	border: 1px solid #000;
+  color: #fff;
+    outline: none;
+    cursor: pointer;
+	padding: 5px 5px;
+	margin: 2px 5px 0 0;
+	position:absolute;right:0;}
+	#button_send:hover{ opacity: 0.5;
+    filter: alpha(opacity=70);
+	color: #000;
+	background: #fff;
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;}
+	#button_add {
+	background: #000;
+padding: 5px 5px;
+margin: 2px 0 0 5px;
+border: 1px solid #000;
+	box-sizing: border-box;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.5);
+    font-family: inherit;
+    font-weight: bold;
+    font-size: inherit;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	position:absolute;left:0;}
+	#button_add:hover{ opacity: 0.5;
+    filter: alpha(opacity=70);
+	color: #000;
+	background: #fff;
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;}

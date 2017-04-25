@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family:  'PT Sans',Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+button{
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+
+
+.coming{
+      margin: 1px;
+      height:85px;
+      
+    background-color:white;
+}
+.message{
+    padding: 10px 10px;
+    height:85px;
+    resize: none;
+    font-size: 14px;
+    width: 100%;
+/*    outline: none;*/
+}
+.footer{
+    justify-content: space-between;
+    display: flex;
+   /* position: relative;
+    vertical-align: bottom;*/
+   
+}
+#button_send,#button_add{
+    text-decoration:none;
+    color: whitesmoke;
+    padding: 8px 20px;
+    border: none;
+    background-color:lightslategray;
+    margin: 10px;
+}
+#button_send:hover ,#button_add:hover{ 
+    
+    background-color:#99AABB;
+}
+
+#button_send:active ,#button_add:active{
+   
+    background-color:#667788;
+}

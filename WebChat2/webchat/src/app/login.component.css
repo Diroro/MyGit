@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    font-family:  'PT Sans',Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+ .credentials input, button,.status{
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+.status{
+    border-color: #FFBBBB
+}
+.main_window{
+    margin: 20px 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size:16px;
+    color: whitesmoke;
+    width: 300px;
+    height:250px;
+    
+}
+
+.credentials{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin:10px 10px 0 10px;
+}
+.credentials input{
+    margin:10px 10px 0 10px;
+    font-size:inherit;
+    padding:5px;
+}
+.status{
+    margin:5px 10px;
+    padding: 5px;
+    font-size: 16px;
+    color: #FF2222;
+    text-align: center;
+    background-color:#FFBBBB;
+}
+.login_button button{
+    color: whitesmoke;
+    padding: 10px 20px;
+    background-color: lightslategray;
+    border: 0px;
+}
+
+.login_button button:hover{
+    background-color: #4f6f6f;
+}
+.login_button button:active{
+    background-color: #2F4F4F;
+}

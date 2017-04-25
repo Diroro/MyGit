@@ -1,0 +1,13 @@
+<div class="main_window">
+	<div class="credentials">
+		<input type = "text" [(ngModel)]="nickname" placeholder = "Nickname"/>
+
+		<input type="text" [(ngModel)]="authMessage.text.user" placeholder="Login" />
+
+		<input type="text" [(ngModel)]="authMessage.text.password" placeholder="Password" />
+	</div>
+	<div *ngIf="errorMessage" class="status">{{errorMessage}}</div>
+	<div class="login_button">
+		<button (click)="gotoMainApp();">{{loginBtnText}}</button>
+	</div>
+</div>

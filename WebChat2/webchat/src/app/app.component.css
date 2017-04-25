@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    font-family:  'PT Sans',Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.main_window{
+    margin: 100px 100px;
+    width: 360px;
+    background-color:whitesmoke;
+     border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+.chat_name{
+    padding: 10px 10px;
+  /*  vertical-align: top;*/
+    background-color:lightslategray;
+    color:whitesmoke;
+    text-align:left;
+    font-size: 16px;
+}
